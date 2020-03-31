@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch.plugin:rank-eval-client:6.8.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch.plugin/rank-eval-client/6.8.6/1b54f52464fad914a333ba5ce5cdae668046bcb6/rank-eval-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch.plugin/rank-eval-client/6.8.6/a921e386dabd531a506f602e3b3da91f9e207745/rank-eval-client-6.8.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

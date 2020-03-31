@@ -12,17 +12,19 @@ public class KafkaBookProducer1 {
     public static void main(String[] args) {
         Properties props = new Properties();
         // props.put("bootstrap.servers", "f7adc472a326:9092");
-        props.put("bootstrap.servers", "127.0.0.1:9092");
+        props.put("bootstrap.servers", "192.168.99.101:9092");
+        props.put("acks", "1");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
         Producer<String, String> producer = new KafkaProducer<String, String>(props);
         try{
-            // producer.send(new ProducerRecord<String, String>("peter-topic", "Apache Kafka is distributed streaming platform"));
-            RecordMetadata metadata = producer.send(
-                    new ProducerRecord<String, String>("peter-topic", "Apache Kafka is distributed streaming platform")
-            ).get();
-            System.out.printf("Partition: %d, offset %d", metadata.partition(), metadata.offset());
+            producer.send(new ProducerRecord<String, String>("peter-topic", "Apache Kafka is distributed streaming platform"),
+            new PeterCallback());
+            // RecordMetadata metadata = producer.send(
+            //         new ProducerRecord<String, String>("peter-topic", "Apache Kafka is distributed streaming platform")
+            // ).get();
+            // System.out.printf("Partition : %d, offset %d", metadata.partition(), metadata.offset());
         }
         catch (Exception e){
             e.printStackTrace();

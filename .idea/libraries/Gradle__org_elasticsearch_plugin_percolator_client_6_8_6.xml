@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch.plugin:percolator-client:6.8.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch.plugin/percolator-client/6.8.6/4e2ece2d77bc1ee95d06bd64c0c340b61d3f8fc4/percolator-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch.plugin/percolator-client/6.8.6/3cd152a65bdc5400b71c69822b888eb21d3bacc2/percolator-client-6.8.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

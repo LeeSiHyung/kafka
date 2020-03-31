@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch:elasticsearch-secure-sm:6.8.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch-secure-sm/6.8.6/2eca9ac63cc143d15096cbc699bdd4dfa8304796/elasticsearch-secure-sm-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch-secure-sm/6.8.6/5118e5fa1daf08ab1956b08674112b0bd71c59d/elasticsearch-secure-sm-6.8.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
